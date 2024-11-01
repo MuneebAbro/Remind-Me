@@ -11,6 +11,9 @@ Remind Me is a simple and efficient reminder app that helps you stay on top of y
 - **User-Friendly Interface**: Simple and easy-to-navigate interface.
 
 ## Screenshots
+### DashBoard
 ![Dashboard](dashboard.jpeg)
+### Task
 ![Task](task.jpeg)
-![Calendar](calendar.jpeg)
+### Calender
+![Calendar](calender.jpeg)
