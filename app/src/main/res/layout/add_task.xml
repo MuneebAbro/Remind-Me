@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="8dp">
+
+
+    <TextView
+        android:id="@+id/titleTVPlain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/roboto"
+        android:paddingStart="8dp"
+        android:paddingEnd="0dp"
+        android:paddingBottom="4dp"
+        android:text="@string/title"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/titleEditText"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/circular_textedit"
+        android:hint="@string/enter_title"
+        android:textColor="@color/black"
+        android:inputType="textCapWords"
+        app:layout_constraintEnd_toEndOf="@+id/titleTVPlain"
+        app:layout_constraintStart_toStartOf="@+id/titleTVPlain"
+        app:layout_constraintTop_toBottomOf="@+id/titleTVPlain" />
+
+    <TextView
+        android:id="@+id/taskTVPlain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/roboto"
+        android:paddingStart="8dp"
+        android:paddingEnd="0dp"
+        android:paddingBottom="4dp"
+        android:text="@string/note"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleEditText" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/taskEditText"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/circular_textedit"
+        android:hint="@string/enter_note"
+        android:textColor="@color/black"
+        android:inputType="textCapSentences"
+        app:layout_constraintEnd_toEndOf="@+id/taskTVPlain"
+        app:layout_constraintStart_toStartOf="@+id/taskTVPlain"
+        app:layout_constraintTop_toBottomOf="@+id/taskTVPlain" />
+
+    <TextView
+        android:id="@+id/dueDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/rounded_corner_button"
+        android:gravity="center"
+        android:text="@string/select_a_due_date"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taskEditText" />
+
+    <Button
+        android:id="@+id/addButton"
+        style="@style/CustomButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_corner_button"
+        android:elevation="8dp"
+        android:text="@string/add_task"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/taskEditText"
+        app:layout_constraintTop_toBottomOf="@id/dueDateTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

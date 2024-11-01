@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="CustomButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/blue</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- res/values/styles.xml -->
+    <style name="CustomEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edit_text_underline</item>
+        <item name="android:paddingBottom">4dp</item> <!-- Adjust padding to match the height of the underline -->
+    </style>
+
+    <style name="DatePickerLightTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:datePickerMode">calendar</item>
+        <item name="colorAccent">@color/dark_blue</item>
+    </style>
+
+    <style name="WhiteDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>
