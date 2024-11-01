@@ -1,7 +1,7 @@
 # Remind Me
 Remind Me is a simple and efficient reminder app that helps you stay on top of your tasks and important events. With an intuitive UI and customizable reminders, you can easily manage your daily tasks, appointments, and deadlines.
 
-Yellow reminders app icon (1).jpeg
+![Logo](Yellow reminders app icon (1).jpeg)
 
 ## Features
 
@@ -10,3 +10,6 @@ Yellow reminders app icon (1).jpeg
 - Recurring Reminders: Set daily, weekly, or monthly repeating reminders for ongoing tasks.
 - User-Friendly Interface: Simple and easy-to-navigate interface.
 ## Screenshots
+![Dash Board](pic dash.jpeg)
+![Task](pic task.jpeg)
+![Calender](pic cal.jpeg)
